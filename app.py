@@ -24,8 +24,8 @@ def predict_label(img_path):
 
 # db
 app.config['MYSQL_HOST'] = "localhost"
-app.config['MYSQL_USER'] = "rithick"
-app.config['MYSQL_PASSWORD'] = "dell2002ros"
+app.config['MYSQL_USER'] = "root"
+app.config['MYSQL_PASSWORD'] = ""
 app.config['MYSQL_DB'] = "cvd"
 
 mysql = MySQL(app)
